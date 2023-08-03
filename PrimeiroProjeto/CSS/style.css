@@ -1,0 +1,136 @@
+/* ---===<body>===--- */
+
+
+
+body {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ---===<header>===--- */
+
+
+
+
+.header-menu{
+    background-color: black;
+    color:aliceblue;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top:0;
+    padding: 5px;
+    z-index: 2;
+}
+
+.link-menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 25px;
+}
+
+.img-header{
+    padding: 25px;
+}
+
+.link-menu a{
+    margin-left: 10px;
+    text-decoration: none;
+    color:aliceblue;
+    transition: color 190ms ease-in;
+}
+
+.link-menu a:hover{
+    color:yellow;
+}
+
+
+
+/* ---===<banner>===--- */
+
+
+
+.banner-menu{
+    background-image: url(/img/tec-banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    height: 89vh;
+    width: 100%;
+}
+
+.banner-text{
+    position: absolute;
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 17%;
+    padding-left: 5%;
+    height: 50vh;
+    width: 100vh;
+    font-weight: bolder;
+}
+
+.banner-text span{
+    color:yellow;
+}
+
+
+
+/* ---===<slider>===--- */
+
+
+
+.main{
+    margin: 20px;
+}
+
+.slider h1{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+/* ---===<cards>===--- */
+
+
+
+
+
+
+
+/* ---===<footer>===--- */
+
+
+
+.footer {
+    background-color: yellow;
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.footer-part-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-us-card {
+    width: 320px;
+}
+
+.about-us-card h2 {
+    text-align: center;
+}
+
+.about-us-card p {
+    text-indent: 15px;
+}
