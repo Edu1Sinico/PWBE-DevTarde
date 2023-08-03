@@ -118,9 +118,9 @@ body {
 
 .footer-part-1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .about-us-card {
@@ -133,4 +133,10 @@ body {
 
 .about-us-card p {
     text-indent: 15px;
+}
+
+.link-menu-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
