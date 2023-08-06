@@ -15,39 +15,39 @@ body {
 
 
 
-.header-menu{
+.header-menu {
     background-color: rgb(232, 252, 255);
-    color:black;
+    color: black;
     height: 10vh;
     width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
-    top:0;
+    top: 0;
     padding: 5px;
     z-index: 2;
 }
 
-.link-menu{
+.link-menu {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     padding: 25px;
 }
 
-.img-header{
+.img-header {
     padding: 25px;
 }
 
-.link-menu a{
+.link-menu a {
     margin-left: 10px;
     text-decoration: none;
-    color:black;
+    color: black;
     transition: color 190ms ease-in;
 }
 
-.link-menu a:hover{
-    color:rgb(40, 182, 182);
+.link-menu a:hover {
+    color: rgb(40, 182, 182);
 }
 
 
@@ -56,7 +56,7 @@ body {
 
 
 
-.banner-menu{
+.banner-menu {
     background-color: white;
     background-repeat: no-repeat;
     background-position: center center;
@@ -65,7 +65,7 @@ body {
     width: 100%;
 }
 
-.banner-text{
+.banner-text {
     position: absolute;
     color: black;
     font-size: 30px;
@@ -76,8 +76,18 @@ body {
     font-weight: bolder;
 }
 
-.banner-text span{
-    color:rgb(40, 182, 182);
+.banner-text span {
+    color: rgb(40, 182, 182);
+}
+
+
+
+/* ---===<main>===--- */
+
+
+
+.main {
+    margin: 20px;
 }
 
 
@@ -86,21 +96,81 @@ body {
 
 
 
-.main{
-    margin: 20px;
-}
-
-.slider h1{
-    display: flex;
-    justify-content: center;
+.slider h1 {
+    text-align: center;
     color: rgb(40, 182, 182);
 }
+
+
 
 /* ---===<cards>===--- */
 
 
 
+.prod-card-title h1{
+    text-align: center;
+    color: rgb(40, 182, 182);
+}
 
+.container-cards-1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-prod-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: #94edff;
+    width: 30vh;
+    height: 290px;
+    border-radius: 15px;
+    transition: transform 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.card-prod-1:hover{
+    transform: scale(1.1);
+}
+
+.card-prod-1 span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.card-prod-1 img{
+    width: 105px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.prod-card-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.prod-card-btn button{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 20%;
+    font-weight: bolder;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 0px black;
+    transition: transform 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.prod-card-btn button:hover{
+    transform: scale(1.1);
+}
 
 
 
@@ -112,7 +182,7 @@ body {
     background-color: rgb(40, 182, 182);
     color: rgb(0, 0, 0);
     font-size: 13px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .footer-part-1 {
@@ -134,8 +204,64 @@ body {
     text-indent: 15px;
 }
 
-.link-menu-footer{
+.link-menu-footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.list-link-card {
+    padding: 10px;
+}
+
+.list-link-card h2{
+    text-align: center;
+}
+
+.list-link-card ul li a{
+    text-decoration: none;
+    color: black;
+    transition: color 200ms ease-in-out;
+}
+
+.contact-card-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-card-footer-img a{
+    text-decoration: none;
+}
+
+.contact-card-footer-img img{
+    width: 35px;
+    padding: 10px;
+}
+
+.contact-card-footer button{
+    margin: 15px;
+    padding: 10px;
+    width: 90px;
+    border-radius: 15px;
+    font-weight: bolder;
+    box-shadow: 3px 3px 0px black;
+    transition: transform 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.contact-card-footer button:hover{
+    transform: scale(1.1);
+}
+
+.footer-part-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 168, 168);
+    width: 100%;
+    height: 45px;
+    color: black;
+    font-size: small;
+    margin-top: 10px;
 }
