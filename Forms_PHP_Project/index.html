@@ -1,0 +1,104 @@
+
+
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário com PHP</title>
+</head>
+
+<style>
+    body{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Arial";
+    }
+    form .container-center{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 15vh;
+        height: 480px;
+        width: 50vh;
+        background-color: aquamarine;
+        border-radius: 15px;
+    }
+
+    .div0 input, .div1 input, .div2 input, .div3 input, .div4 input, .div5 input, div6 input{
+        width: 105px;
+        margin: 5px;
+    }
+
+    .div0 p, .div1 p, .div2 p, .div3 p, .div4 p, .div5 p, .div6 p{
+        display: flex;
+        text-align: justify;
+    }
+
+</style>
+
+<body>
+    <form method="POST" action="recebe_dados.php">
+        <section class="container-center">
+            <div align="center" class="div0">
+                <center>
+                    <p>Username: <input type="text" name="username" size="10">&nbsp;&nbsp;</p>
+                </center>
+            </div>
+
+            <div align="center" class="div1">
+                <center>
+                        <p>Senha: <input type="password" name="senha" size="10"></p>
+                </center>
+            </div>
+
+            <div align="center" class="div2">
+                <center>
+                    <p>Nome: <input type="text" name="nome" size="20"></p>
+                </center>
+            </div>
+
+            <div align="center" class="div3">
+                <center>
+                    <p>E-mail: <input type="email" name="email" size="20"></p>
+                </center>
+            </div>
+
+            <div align="center" class="div4">
+                <center>
+                    <p>Cidade: <input type="text" name="cidade" size="20">&nbsp;&nbsp;</p>
+                </center>
+            </div>
+
+            <div align="center" class="div5">
+                <center>
+                    <p>Estado: <input type="text" name="estado" size="2" maxlenghth="2"></p>
+                </center>
+            </div>
+
+            <div align="center" class="div6">
+                <center>
+                    <p>
+                        CPF: <input type="text" name="cpf" size="11" maxlenghth=11>
+                    </p>
+                </center>
+            </div>
+
+            <div align="center" class="div7">
+                <center>
+                    <p>
+                        <input type="submit" value="Enviar" name="enviar">
+                    </p>
+                </center>
+            </div>
+        </section>
+</form>
+</body>
+
+</html>
