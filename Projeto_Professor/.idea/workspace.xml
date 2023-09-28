@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80446535-5bc4-4b64-b0e7-c4aadbde921c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../PHP-BackEnd/cadastra.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PHP-BackEnd/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastra.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-    </list>
+    <list default="true" id="80446535-5bc4-4b64-b0e7-c4aadbde921c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +17,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2VOv0GJnOgTWOhCAa87m2NaMYN6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +32,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/DEVTA/Documents/EduardoSinico/PWBE-DevTarde/Projeto_Professor",
+    "last_opened_file_path": "C:/Users/DEVTA/Documents/EduardoSinico/PWBE-DevTarde/Projeto_Tutorial_PHP_CRUD",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +50,7 @@
       <updated>1694711175042</updated>
       <workItem from="1694711176086" duration="908000" />
       <workItem from="1694719722661" duration="1633000" />
+      <workItem from="1695918325673" duration="111000" />
     </task>
     <servers />
   </component>
